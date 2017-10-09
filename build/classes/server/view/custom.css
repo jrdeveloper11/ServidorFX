@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/10/2017, 06:35:54 PM
+    Author     : Junior Garcia
+*/
+
+.toolbar-bar{
+    -fx-background-color: #009DE0;
+}
+
+.center-pane-chat{
+    -fx-background-color: #fff;
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+    -fx-effect: dropshadow(gaussian, rgba(0.0,0.0,0.0, 0.20), 2.0, 0.7, 0.0, 1.5);
+}
+
+.button-send{
+    -fx-background-radius: 50;
+    -fx-border-radius: 50;
+    -fx-background-color:#1565C0;
+    -fx-effect: dropshadow(gaussian, rgba(0.0,0.0,0.0, 0.20), 2.0, 0.7, 0.0, 1.5);
+}
+
+.button-send:pressed, .faces-label-button:pressed{
+    -fx-scale-x: 0.95; 
+    -fx-scale-y: 0.95; 
+}
+
+
+/*******************************************************************************
+ *                                                                                                                                       *
+ * Hamburger                                                                                                                   *
+ *                                                                                                                                       *
+ ******************************************************************************/
+.jfx-hamburger-icon{
+    -fx-spacing: 4;
+    -fx-cursor: hand;  
+}
+
+.jfx-hamburger-icon StackPane{
+    -fx-pref-width: 20px;
+    -fx-pref-height: 3px;   
+    -fx-background-color: #F7F7F7;
+    -fx-background-radius: 3px;
+}
+
+
+/*******************************************************************************
+ *                                                                                                                                       *
+ * ScrollPane                                                                                                                    *
+ *                                                                                                                                       *
+ ******************************************************************************/
+
+.scroll-pane > .viewport {
+    -fx-background-color: -fx-background;
+
+}
+.scroll-pane {
+    -fx-background-color: rgba(165,165,165, 0.3);
+    -fx-padding: 0 0 0 0;
+    -fx-border-width: 0 0 0 0;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: derive(-fx-base,-1%);
+    -fx-background-insets: 0 1 1 0;
+}
+.scroll-pane > .scroll-bar:vertical {
+    -fx-background-insets: 1 1 1 0, 1;
+    -fx-padding: 1 0 1 0;
+    -fx-background-color: #F4F4F4;
+}
