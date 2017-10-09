@@ -15,12 +15,11 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="380.0" stylesheets="@custom.css" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.view.ViewServerController">
    <children>
       <BorderPane layoutX="90.0" layoutY="111.0" prefHeight="500.0" prefWidth="380.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <JFXToolbar prefHeight="50.0" prefWidth="380.0" styleClass="toolbar-bar" BorderPane.alignment="CENTER">
+            <JFXToolbar prefHeight="18.0" prefWidth="380.0" styleClass="toolbar-bar" BorderPane.alignment="CENTER">
                <center>
                   <Label text="PepaChat1.0" textFill="WHITE" BorderPane.alignment="CENTER">
                      <font>
@@ -78,4 +77,3 @@
       </BorderPane>
    </children>
 </AnchorPane>
-
